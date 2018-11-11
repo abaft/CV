@@ -37,15 +37,17 @@
   \section*{Education}
   \vspace*{-.3cm}
   University Of Leeds:
-  \newline\textit{*Provisional Grade}
+  %\newline\textit{*Provisional Grade}
+	\newline \textit{On track for 2:1}
   \vspace*{-6mm}
 \begin{center}
   \begin{tabular}{p{2cm} p{0.6cm} p{5.4cm}}
-    \textbf{First Year}&\textbf{70}*&Computer Architecture\\
-	2017-18&\textbf{63}*&Fundamental Math Concepts\\
-	    &\textbf{96}*&Procedural Programming\\
-	    &\textbf{61}*&Professional Computing\\
-	    &\textbf{60}*&Calculus \& Math Analysis\\
+    \textbf{First Year}&\textbf{70}&Computer Architecture\\
+	2017-18&\textbf{63}&Fundamental Math Concepts\\
+	    &\textbf{96}&Procedural Programming\\
+			&\textbf{74}&Computer Processors\\
+			&\textbf{65}&Object Oriented Programming\\
+			&\textbf{78}&Programming Project
   \end{tabular}
 \end{center}
   St Josephs Collage, Ipswich:
@@ -66,64 +68,62 @@
 \section*{Personal Profile}
 Enthusiastic and technically minded individual who enjoys a challenge and revels in solving problems.
 Hard working with a persistent desire to learn and understand.
-Currently in first year studying toward a BSc in Computer Science at the University of Leeds.
+Currently in my second year studying toward a BSc in Computer Science at the University of Leeds.
 
-\section*{Core Skills}
-\begin{itemize}
-\item Grounding in mathematics providing a robust structure to think about and model problems.
-
-\item Practical problem solving skills and algorithmic thinking abilities.
-
-\item Communication skills and ability to work cohesively within a team.
-
-\item An ability to quickly adapt myself to new environments and learn new skills efficiently.
-\end{itemize}
+I have, to date, gained experience in computing and electronics through a plethora of personal projects, hobbies, and some work experience.
 
 \section*{Projects}
 %\textit{Experience listed here was done `for love' in addition to my academic studies}
-\textit{Some of the projects I have done and found interesting}
+\textit{Some of the projects I have done and found interesting enough to comment on here}
 
-\paragraph{Micro Controllers} In an attempt to track a meteorological balloon going into near space I worked intimately with AVR Micro Controllers.
-I developed a interrupt driven RTTY radio GPS tracker device using a megaAVR microcontroller.
+\paragraph{Building Processors/FPGA Softcores} In my high school years I built an 8 bit processors in 74 series logic.
+At university I discovered VeriLog/VHDL and FPGAs and realised that I could code my own processors without having to deal with PCBs or a ton of wires (or silicon lithography).
+
+\paragraph{radiotutor.uk} My friend approached me to write a web application for his e-learning platform.
+I took the opportunity to learn Go, I ended up settling on GoLang's gin as the web framework as it struck a good balance between performance and ease of use.
+Worked with databases (MySQL and Redis), and tools such as Docker and nginx for deployment and load balancing. (given our limited scope load balancing turned out to be completely redundant)
+
+\paragraph{High Altitude Balloons} For the sake of pretty areal photographs I decided to try and launch my own meteorological balloon.
+I developed a interrupt driven RTTY radio GPS tracker device using a megaAVR microcontroller and a little radio transmitter.
 This taught me about assembler and hardware interfaces such as I$^2$C, UART and SPI;
 as well as elements computer architecture as enforced by my computer science course.
-It also stretched my programming abilities, to work with a very limited microcontroller in terms of RAM and PROM space.
-\vspace*{-0.1cm}
-\paragraph{Radio} I discovered amateur radio a few years ago (attaining the full licence) to experiment with digital data transmission modes and packet radio.
-This led to a wider interest in computer networking (TCP/IP and UDP/IP).
-I enjoy working with almost all communications protocols and encryption.
-\vspace*{-0.1cm}
-\paragraph{Web Development} In senior school I was a member of a `Young Enterprise' team.
-I was tasked to develop an e-commerce platform to sell our products.
-Through this I worked with PHP, mySQL, AJAX, nginx, apache, linux ect
-This `Young Enterprise' experience, along with ICAEW's BASE competition (the team I was in came within the top 8 of 500 nation wide) taught me about business and management providing valuable team working skills.
-\vspace*{-0.1cm}
-\paragraph{Electronics/FPGAs} I've always enjoyed building machines with discrete electronics;
-engineering solutions to all sorts of things with various TTL ICs.
-More Recently FPGAs have been my primary source of entertainment.
-The ability to describe your circuit and flash it onto a general purpose gate array is exceptionally cool.
-I recently, as part of a computer processors module, decided to implement the architecture we were discussing (called HACK) in verilog and flash it onto an FPGA.
+It tested my programming and construction abilities, to work with a very limited microcontroller in terms of RAM and PROM space in an environment where reliability really matters.
 
-\iffalse
-\section*{Some Language/Software Skills}
+\section*{Work Experience}
+
+\paragraph{BT} I spent a month doing work experience with BTs research and innovation division in martleshem.
+I was working on developing a demonstration of what CV2X could provide by building robotic cars communicating P2P and over a network.
+I built the cars and wrote some server client software to control them (In C and GoLang) using bluetooth for P2P and a 4G `over the top' connection for communication with the control server which I wrote and hosted in AWS.
+
+This taught me a little about office life and the crazy number of acronyms for everything.
+
+\section*{Achievements}
+\begin{itemize}
+	\item Full amateur radio licence
+
+	\item D of E Silver and Bronze
+
+  \item Treasurer of CompSoc (School of Computing Society) and Sectary of Rifle Soc (our university rifle club)
+
+	\item Course rep
+\end{itemize}
+
+
+%\iffalse
+\section*{Technologies I'm comfortable with}
 \begin{multicols*}{2}
 \begin{itemize}
-\item C/C++
-\item JavaScript
-\item HTML5/CSS3
-\item PHP
-\item SQL
-\item Python
+\item C
 \item Golang
 \item Verilog
 \item \LaTeX 
 \item Git
 \item Linux
-\item BASH scripting
-\item MS Office
+\item Java
+\item PHP, Perl, Lua, tcl, R, python, javascript, m4, any scripting language within a day
 \end{itemize}
 \end{multicols*}
-\fi
+%\fi
 \vfill
 \textit{References available upon request}
 \end{multicols*}
